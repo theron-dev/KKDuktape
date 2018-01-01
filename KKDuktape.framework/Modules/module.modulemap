@@ -1,0 +1,6 @@
+framework module KKDuktape {
+  umbrella header "KKDuktape.h"
+
+  export *
+  module * { export * }
+}
