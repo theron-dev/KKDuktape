@@ -66,9 +66,9 @@
 		ACE05BCC1FD8D5AB0043912D /* KKDuktape.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KKDuktape.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACE05BCF1FD8D5AB0043912D /* KKDuktape.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KKDuktape.h; sourceTree = "<group>"; };
 		ACE05BD01FD8D5AB0043912D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ACE05BDF1FD8D61A0043912D /* duktape.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = duktape.c; path = ../../../lib/duktape/src/duktape.c; sourceTree = "<group>"; };
-		ACE05BE01FD8D61A0043912D /* duktape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = duktape.h; path = ../../../lib/duktape/src/duktape.h; sourceTree = "<group>"; };
-		ACE05BE11FD8D61A0043912D /* duk_config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = duk_config.h; path = ../../../lib/duktape/src/duk_config.h; sourceTree = "<group>"; };
+		ACE05BDF1FD8D61A0043912D /* duktape.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = duktape.c; path = ../../lib/duktape/src/duktape.c; sourceTree = "<group>"; };
+		ACE05BE01FD8D61A0043912D /* duktape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = duktape.h; path = ../../lib/duktape/src/duktape.h; sourceTree = "<group>"; };
+		ACE05BE11FD8D61A0043912D /* duk_config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = duk_config.h; path = ../../lib/duktape/src/duk_config.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,7 +149,7 @@
 				ACE05BDF1FD8D61A0043912D /* duktape.c */,
 				ACE05BE01FD8D61A0043912D /* duktape.h */,
 			);
-			path = lib;
+			name = lib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
